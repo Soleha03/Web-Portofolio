@@ -1,0 +1,122 @@
+:root {
+    --mainColor :#eeeeee;
+    --secondaryColor :#333646;
+    --acsenColor :#dba1a0;
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+/*Navbar*/
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.nav-link.active {
+    color:var(--secondaryColor)!important;
+    font-weight: 700;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+/*End Navbar*/
+
+/*Hero*/
+.profile {
+    border-radius: 50%;
+}
+
+#hero {
+    color: #333646;;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero h2 {
+    font-weight: 300;
+}
+
+#hero p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/*CTA*/
+.btn-custom1 {
+    background-color: var(--acsenColor);
+    text-align: center;
+    color: #333646;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+/*End Hero*/
+
+/*Skill*/
+#skill {
+    min-height: 600px;
+    width: 100%;
+    color: #333646;
+}
+
+#skill img {
+    width: 12%;
+    margin: 10px;
+}
+
+#skill .card {
+    background-color: var(--secondaryColor);
+    height: 340px;
+}
+
+.text-start {
+    color: white;
+}
+
+.skill-konten {
+    margin-top: 120px;
+}
+/*End Skill*/
+
+/*Project*/
+#project .container {
+    padding: 80px 10px;
+}
+
+#project img {
+    width: 100%;
+    margin: 10px;
+}
+
+#project p, a {
+    color: #333646;
+    text-decoration: none;
+}
+
+/*End Project*/
+
+/*Footer*/
+.logo {
+    border-radius: 50%;
+}
+
+.social-icon-footer svg{
+    margin-right: 0.7em;
+    margin-bottom: 10px;
+    color: #333646;
+}
+  
+/*End Footer*/
